@@ -25,7 +25,7 @@ Publishes:
 Endpoints:
   - Private-IP-Name: INTERNAL_SERVICE_IP
     Private-Port-Name: 9001
-    Public-Port-Name: INTERNAL_SERVICE_IP
+    Public-Port-Name: INTERNAL_SERVICE_PORT
 Subscribes:
   set-db-connection-info:
     Type: "ENV:NET_TCP:db:connection-info"
