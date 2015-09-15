@@ -23,9 +23,9 @@ Publishes:
   get-doc-root:
     Type: "FILESYSTEM:doc-root"
 Endpoints:
-  - Private-IP-Name: INTERNAL_SERVICE_IP
+  - Private-IP-Name: GO_IP
     Private-Port-Name: 9001
-    Public-Port-Name: INTERNAL_SERVICE_PORT
+    Public-Port-Name: GO_PORT
 Subscribes:
   set-db-connection-info:
     Type: "ENV:NET_TCP:db:connection-info"
