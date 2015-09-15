@@ -25,7 +25,7 @@ Publishes:
 Endpoints:
   - Private-IP-Name: IP
     Private-Port-Name: PORT
-    Private-Port: 9001
+    Private-Port: 15901
     Public-Port-Name: PROXY_PORT
 Subscribes:
   set-db-connection-info:
